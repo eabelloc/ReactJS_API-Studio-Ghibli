@@ -1,0 +1,31 @@
+header {
+    height: 14vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    height: 90%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+
+}
+ul li {
+    font-size: 1rem;
+}
+
+header nav ul li {
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+}
+
+header nav ul li:hover {
+    color: #048170;
+    cursor: pointer;
+    transform: scale(1.1);
+}

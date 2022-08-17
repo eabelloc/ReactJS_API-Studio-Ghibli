@@ -1,0 +1,29 @@
+.film-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 20rem;
+    padding: 1rem;
+    border: 5px solid rgba(0, 71, 61, 0.60);
+    border-radius: 18px;
+    box-shadow: 6px 6px 6px rgba(128, 128, 128, 0.607);
+    cursor: default;
+    transition: all 500ms ease;
+    background-color: rgba(184, 251, 224, 0.60);
+    text-align: center;
+ }
+ figure:hover {
+    box-shadow: 10px 10px 16px;
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+ }
+
+.film-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 18px;
+}

@@ -1,0 +1,12 @@
+.people_section h2 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.people_gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
